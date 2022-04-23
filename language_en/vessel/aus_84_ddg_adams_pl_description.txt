@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=Perth
+Description=Perth-class Destroyer
+History=The Perth-class destroyers were three modified Charles F. Adams-class guided missile destroyers operated by the Royal Australian Navy (RAN). Ordered from Defoe Shipbuilding Company during 1962 and 1963, HMA Ships Perth, Hobart, and Brisbane were the first guided missiled-armed warships, and the first naval ships of United States design, to enter service with the RAN. All three ships operated during the Vietnam War, while Brisbane also participated in the Gulf War. 
+
+[Player Ship Instances]
+PlayerClassNames=Perth,Hobart,Brisbane
+PlayerClassHullNumbers=DDG-38,DDG-39,DDG-41

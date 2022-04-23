@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Mark 44
+WeaponDescriptiveName=Mark 44 Torpedo
+WeaponDescription=The Mark 44 torpedo is a now-obsolete air-launched and ship-launched lightweight torpedo manufactured in the United States, and under licence in Canada, France, Italy, Japan and the United Kingdom, with 10,500 being produced for U.S. service. It was superseded by the Mark 46 torpedo, beginning in the late 1960s. The Royal Australian Navy, however, continued to use it alongside its successor for a number of years, because the Mark 44 was thought to have superior performance in certain shallow-water conditions.
