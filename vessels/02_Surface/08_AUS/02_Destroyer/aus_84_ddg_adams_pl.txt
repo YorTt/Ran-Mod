@@ -219,7 +219,7 @@ ModelFile=ships/usn_cg_belknap/usn_cg_belknap
 MeshPosition=0,-0.185,-0.07
 MeshRotation=270,90,0
 Material=ships/materials/flag_us
-MaterialTextures=ships/materials/flags/flag_rn.png
+MaterialTextures=ships/materials/flags/flag_aus.png
 MeshMainFlag=usn_cg_belknap_animatedflag,HIDE
 
 //Naval Guns

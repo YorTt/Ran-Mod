@@ -389,7 +389,7 @@ ModelFile=ships/wp_bdk_alligator/wp_bdk_alligator
 MeshPosition=0,0,0
 MeshRotation=270,90,0
 Material=ships/materials/flag_soviet
-MaterialTextures=ships/materials/flags/flag_rn.png
+MaterialTextures=ships/materials/flags/flag_aus.png
 MeshMainFlag=wp_bdk_alligator_animatedflag
 
 //Material=ships/materials/flag_signal

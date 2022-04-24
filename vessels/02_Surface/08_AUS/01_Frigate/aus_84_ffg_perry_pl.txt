@@ -169,7 +169,7 @@ MeshRADAR=usn_cg_belknap_sps_49,HIDE
 MeshPosition=0,-0.0952,-0.0642
 MeshRotation=270,90,0
 Material=ships/materials/flag_us
-MaterialTextures=ships/materials/flags/flag_rn.png
+MaterialTextures=ships/materials/flags/flag_aus.png
 MeshMainFlag=usn_cg_belknap_animatedflag,HIDE
 
 //ESM
