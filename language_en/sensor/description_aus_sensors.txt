@@ -1,0 +1,6 @@
+aus_csu_3_41=CSU 3-41=The Australian Oberpn Submarine sonar was replaced with a more capable Krupp CSU 3-41 attack sonar, developed in conjunction with the Type 2051 replacement of the British Oberons but slightly less capable.
+aus_tsm_4131=TMS 4131=Thales Spherion TMS 4131 modern Hull Sonar, Active/Passive Search & Track, mounted in upgraded Adelaide Class Frigates.
+aus_tsm_2233=TMS 2233=Thales Spherion TMS 2233 modern Hull Sonar, Active/Passive Search & Track, mounted on Collins Submarines.
+aus_mulloka=Mulloka=Australian Defence Force devloped sonar, similar performance to AN/SQS-56.
+aus_kariwara=Kariwara=Kariwara COLTAS Towed Array sonar developed for the Collins Class Submarines.
+aus_atlas_9600=Atlas 9600=Atlas 9600-M ARPA surface search radar used on the Anzac Class Frigates.
