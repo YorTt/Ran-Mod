@@ -24,18 +24,18 @@ Waterline=0.02
 SubmergedAt=0.176
 CavitationParameters=20,-100
 PropRotationSpeed=-190
-TestDepth=900
+TestDepth=1000
 EscapeDepth=750
 Diesel=TRUE
 
 [Acoustics & Sensors]
 SelfNoise=120
 ActiveSonarReflection=25
-ActiveSonarModel=usn_an_bqs_4
-PassiveSonarModel=usn_an_bqq_5
-TowedArrayModel=usn_tb_29
+ActiveSonarModel=aus_tsm_2233
+PassiveSonarModel=aus_tsm_2233
+TowedArrayModel=aus_kariwara
 AnechoicCoating=TRUE
-RADAR=usn_bps_15
+RADAR=uk_t1007
 RADARSignature=SMALL
 TowedArrayPosition=0.06,0,-0.46
 

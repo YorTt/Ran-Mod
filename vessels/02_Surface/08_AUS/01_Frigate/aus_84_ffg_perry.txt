@@ -94,9 +94,9 @@ Anti-MissileRADARRestAngle=0
 PlayerWarningRange=3600
 JammingRange=3000
 
-ChaffType=wp_chaff
-ChaffProbability=0.12
-NumberChaffLaunched=2
+//ChaffType=wp_chaff
+//ChaffProbability=0.12
+//NumberChaffLaunched=2
 
 AntiAirMissileType=usn_rim-66e
 AntiAirMissilesNumbers=24

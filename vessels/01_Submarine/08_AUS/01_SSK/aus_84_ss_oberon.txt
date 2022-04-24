@@ -35,11 +35,11 @@ Diesel=TRUE
 SelfNoise=116
 ActiveSonarReflection=22
 ActiveSonarReflection=20
-ActiveSonarModel=usn_sqs_26
-PassiveSonarModel=usn_an_bqg_4
+ActiveSonarModel=aus_csu_3_41
+PassiveSonarModel=aus_csu_3_41
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=uk_1002
+RADAR=uk_1006
 RADARSignature=SMALL
 
 [Weapon Systems]
