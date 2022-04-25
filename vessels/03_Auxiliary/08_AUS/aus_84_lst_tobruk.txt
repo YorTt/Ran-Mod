@@ -73,7 +73,7 @@ ActiveSonarModel=nav_sonar
 PassiveSonarModel=nav_sonar
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=uk_aws9
+RADAR=uk_1006
 RADARSignature=MEDIUM
 
 NoisemakerName=surf_noisemaker
