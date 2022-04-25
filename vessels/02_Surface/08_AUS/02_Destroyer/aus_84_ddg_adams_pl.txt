@@ -81,6 +81,20 @@ AutoMissileLaunchDepth=15
 AutoMissileLaunchPoints=0,0.11,-0.612
 AutoMissileLaunchPointsRotation=-30,180,0
 
+
+Anti-MissileGunHitProbability=0.015
+Anti-MissileGunRange=2500
+Anti-MissileGunFiringArcStart=0
+Anti-MissileGunFiringArcFinish=0
+Anti-MissileGunRestAngle=0
+Anti-MissileGunUsesRADAR=0
+Anti-MissileRADARRestAngle=0
+PlayerWarningRange=2800
+JammingRange=3000
+ChaffType=wp_chaff
+ChaffProbability=0.90
+NumberChaffLaunched=2
+
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=28
 NoisemakerReloadTime=17
@@ -410,6 +424,18 @@ MeshMast=FALSE
 //3 - RADAR
 MeshPosition=0,0.3,0
 MeshMast=FALSE
+
+//Noisemaker Mount
+MeshRotation=0,0,0
+MeshPosition=0,-0.011,-0.85
+MeshNoisemakerMount=FALSE
+
+//fake CIWS
+MeshRotation=0,0,0
+MeshPosition=0,0,0
+MeshCIWSGun=FALSE
+MeshPosition=0,0,0
+MeshCIWSRADAR=FALSE
 
 //Wake and Smoke
 MeshPosition=0,0,0

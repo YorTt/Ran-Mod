@@ -72,7 +72,7 @@ PlayerWarningRange=3600
 JammingRange=3000
 
 ChaffType=wp_chaff
-ChaffProbability=0.99
+ChaffProbability=0.90
 NumberChaffLaunched=2
 
 Special=AEGIS

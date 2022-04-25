@@ -32,7 +32,7 @@ PeriscopeDepthInFeet=40
 Diesel=TRUE
 
 [Acoustics & Sensors]
-SelfNoise=116
+SelfNoise=118
 ActiveSonarReflection=22
 ActiveSonarReflection=20
 ActiveSonarModel=aus_csu_3_41
