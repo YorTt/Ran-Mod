@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName="IKARA"
-WeaponDescriptiveName=IKARA F2/0 ASW Missile
-WeaponDescription=The Ikara missile was an Australian ship-launched anti-submarine missile. It launched an acoustic Mk46 torpedo to a range of 10 nautical miles (19 km), allowing fast-reaction attacks against submarines at ranges that would otherwise require the launching ship to close for attack, placing itself at risk. By flying to a distant target, the engagement time was dramatically shorter than provided by short-range weapons, giving the target less time to respond.

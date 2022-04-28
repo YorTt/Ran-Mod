@@ -1,8 +1,0 @@
-[Unit Reference]
-ShipClass=Tobruk
-Description=Tobruk-class landing ship
-History=HMAS Tobruk (L 50) was a Landing Ship Heavy (LSH) of the Royal Australian Navy (RAN), based on the design of the Round Table-class of the British Royal Fleet Auxiliary. Planning for the ship began in the 1970s to provide the Australian Army with a permanent sealift capability. She was laid down by Carrington Slipways in 1979, launched in 1980, and commissioned in 1981. She was a multi-purpose, roll-on/roll-off heavy lift ship capable of transporting soldiers, APCs, and tanks, and delivering them to shore via landing craft or directly by beaching.
-
-[Player Ship Instances]
-PlayerClassNames=Tobruk
-PlayerClassHullNumbers=LST-50

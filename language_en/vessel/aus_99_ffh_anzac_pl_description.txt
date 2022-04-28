@@ -1,9 +1,0 @@
-[Unit Reference]
-ShipClass=ANZAC
-Description=Anzac-class Guided Missile Frigate
-Aircraft=1 Sikorsky MH-60R Seahawk
-History=The Anzac class is a ship class of ten frigates; eight operated by the Royal Australian Navy (RAN) and two operated by the Royal New Zealand Navy (RNZN). Replacing the River-class destroyer escorts (based on the British Leander Class) with a mid-capability patrol frigate, and settled on the idea of modifying a proven German design for Australian conditions. 
-
-[Player Ship Instances]
-PlayerClassNames=Anzac,Arunta,Warramunga,Stuart,Parramatta,Ballarat,Toowoomba,Perth
-PlayerClassHullNumbers=FFH-150,FFH-151,FFH-152,FFH-153,FFH-154,FFH-155,FFH-156,FFH-157

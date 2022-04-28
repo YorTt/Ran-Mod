@@ -1,8 +1,0 @@
-[Unit Reference]
-ShipClass=Oberon
-Description=Oberon Class SSK
-History=First entering the Royal Australian Navy service in 1969, the Oberon-class was designed to be a bigger more and more capable version of it's predocessor, the Porpoise-class. A total of 27 boats where built, and saw service with 5 different countries around the world. A total of eight 21" torpedo tubes where mounted in the original design, 6 forward and 2 non-reloadable tubes aft. The Royal Australian Navy operated 6 boats of this class.
-
-[Player Ship Instances]
-PlayerClassNames=Onslow,Orion,Otama,Otway,Ovens,Oxley
-PlayerClassHullNumbers=S60, S61, S62, S59, S70, S57
