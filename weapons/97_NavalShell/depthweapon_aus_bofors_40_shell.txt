@@ -1,8 +1,0 @@
-DepthWeaponObjectReference=aus_bofors_40_shell
-DepthWeaponWarhead=2
-DepthWeaponRange=100,13120
-DepthWeaponNumberFired=26
-DepthWeaponRateOfFire=0.5
-DepthWeaponReloadTime=4
-DepthWeaponVelocity=5.2
-DepthWeaponAccuracy=1
