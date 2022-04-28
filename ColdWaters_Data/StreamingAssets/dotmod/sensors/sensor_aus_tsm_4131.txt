@@ -1,0 +1,8 @@
+SonarModel=aus_tsm_4131
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=29
+SonarPassiveSensitivity=38
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220

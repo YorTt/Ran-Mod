@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Durance
+Description=Durance-class fleet oiler
+History=HMAS Success (OR 304) was a Durance-class multi-product replenishment oiler that previously served in the Royal Australian Navy (RAN). Built by Cockatoo Docks & Engineering Company in Sydney, Australia, during the 1980s, she is the only ship of the class to be constructed outside France, and the only one to not originally serve in the Marine Nationale (French Navy).
+
+
+[Player Ship Instances]
+PlayerClassNames=Success
+PlayerClassHullNumbers=OR-304
