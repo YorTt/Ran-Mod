@@ -1,8 +1,0 @@
-SonarModel=aus_csu_3_41
-SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L,L
-SonarActiveSensitivity=22
-SonarPassiveSensitivity=36
-SonarBaffle=150
-SonarNoisePerKnot=1
-SonarOutput=225

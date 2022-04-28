@@ -1,2 +1,0 @@
-RADARModel=aus_atlas_9600
-RADARRange=46300

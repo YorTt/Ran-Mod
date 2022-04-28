@@ -1,8 +1,0 @@
-SonarModel=aus_mulloka
-SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L,L
-SonarActiveSensitivity=28
-SonarPassiveSensitivity=38
-SonarBaffle=150
-SonarNoisePerKnot=1
-SonarOutput=230
