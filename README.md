@@ -1,3 +1,4 @@
 # RAN-DotMod-
 Royal Australian Navy Mod for Cold Waters
-This Mod requires DotMod to be installed prior before this mod can work, as it relies soley on the DotMod assets.
+This Mod requires DotMod to be installed prior before this mod can work, as it relies on the DotMod assets.
+Place this Mod into the Cold Waters "MOD" folder and use JSGME to activate after DotMod
