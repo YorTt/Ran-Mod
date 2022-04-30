@@ -44,7 +44,7 @@ NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=4800
 
 TorpedoTypes=usn_moss_surf
-TorpedoNumbers=4
+TorpedoNumbers=2
 TorpedoTubes=1
 TubeConfig=1
 TorpedoTubeSize=324

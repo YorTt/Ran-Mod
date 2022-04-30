@@ -1,4 +1,4 @@
-Designation=SSK
+Designation=SSG
 ShipType=SUBMARINE
 PlayerHUD=hud/default
 
@@ -12,20 +12,22 @@ Range=10000
 [Movement]
 SurfaceSpeed=10
 SubmergedSpeed=20
-AccelerationRate=0.3
+TelegraphSpeeds=-5,0,5,8,12,15,20
+AccelerationRate=0.4
 DecelerationRate=0.08
-RudderTurnRate=1
-TurnRate=3
+RudderTurnRate=0.8
+TurnRate=2.7
 PivotPointTurning=0.256
 DiveRate=6
 SurfaceRate=6
 BallastRate=0.25
-Waterline=0.05
-SubmergedAt=0.176
+Waterline=0.035
+SubmergedAt=0.147
 CavitationParameters=20,-100
 PropRotationSpeed=-190
 TestDepth=1000
 EscapeDepth=750
+PeriscopeDepthInFeet=44
 Diesel=TRUE
 
 [Acoustics & Sensors]
@@ -37,7 +39,7 @@ TowedArrayModel=aus_kariwara
 AnechoicCoating=TRUE
 RADAR=uk_t1007
 RADARSignature=SMALL
-TowedArrayPosition=0,0.066,-0.46
+TowedArrayPosition=0,0.050,-0.517
 
 [Weapon Systems]
 TorpedoTypes=usn_mk48_adcap,usn_ugm84,usn_moss
@@ -89,86 +91,132 @@ FLOODING5=-119,62,-77,-34
 DamageControlPartyY=-28
 
 [Model]
-ModelFile=ships/plan_ssk_song/plan_ssk_song
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
+Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
+MaterialTextures=ships/usn_ssn_skipjack/usn_ssn_skipjack_tx,ships/usn_ssn_skipjack/usn_ssn_skipjack_spec,ships/usn_ssn_skipjack/usn_ssn_skipjack_nm
+MeshPosition=0,-0.0040,-0.515
+MeshProp=usn_ssn_skipjack_prop
 
-//Hull and Deck
+//Hull
 MeshPosition=0,0,0
 MeshRotation=0,0,0
+ModelFile=ships/wp_ss_kilo/wp_ss_kilo
+MeshHullCollider=wp_ss_kilo_coll_hull
+MeshSuperstructureCollider=wp_ss_kilo_coll_ss
 
-MeshHullCollider=plan_ssk_song_coll_hull
-MeshSuperstructureCollider=plan_ssk_song_coll_ss
-
-Material=ships/plan_ssk_song/plan_ssk_song_mat
+Material=ships/wp_ss_kilo/wp_ss_kilo_mat
 MaterialTextures=vessels/textures/darkgrey.png
-//MaterialTextures=ships/plan_ssk_song/plan_ssk_song_tx,ships/plan_ssk_song/plan_ssk_song_spec,ships/plan_ssk_song/plan_ssk_song_nm
-Mesh=plan_ssk_song
-MeshPosition=0,0,-0.4463
-MeshRudder=plan_ssk_song_rudders
-MeshPosition=0,0.0952,0.2932
-MeshBowPlanes=plan_ssk_song_sailplanes
-MeshPosition=0,-0.0017,-0.4409
-MeshSternPlanes=plan_ssk_song_sternplanes
-MeshPosition=0,0,-0.509
-MeshProp=plan_ssk_song_prop
-
+Mesh=wp_ss_kilo
+MeshPosition=0,0.01,0.20
+MeshRudder=wp_ss_kilo_rudder
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
+MeshPosition=0,0.10,0.1555
+MeshBowPlanes=usn_ssn_skipjack_sternplanes
+ModelFile=ships/wp_ss_kilo/wp_ss_kilo
 MeshPosition=0,0,0
-//Material=ships/materials/hullnumbers/hullnumber
-//MeshHullNumber=plan_ssk_song_hullnumber
+MeshSternPlanes=wp_ss_kilo_bowplanes
 
+
+
+//Bow
+[Model]
+
+//Planes
+MaterialTextures=vessels/textures/darkgrey.png
+MeshRotation=0,0,0
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
+MeshRotation=0,0,45
+MeshPosition=0,0,-0.47
+Mesh=usn_ssn_skipjack_sternplanes
+MeshRotation=0,0,135
+MeshPosition=0,0,-0.47
+Mesh=usn_ssn_skipjack_sternplanes
+
+
+//Sonar Dome
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+MeshRotation=0,0,0
+MeshPosition=-0.0,0.007,-0.0288
+Mesh=usn_ssn_permit_wlr9
+MeshPosition=-0.0,0.015,-0.0288
+Mesh=usn_ssn_permit_wlr9
+
+//Towed array
+ModelFile=weapons/assets/usn_tasm
+MeshRotation=0,0,0
+MaterialTextures=vessels/textures/darkgrey.png
+MeshPosition=0,0.050,-0.375
+Mesh=TASM_Canister
+MeshPosition=0,0.050,-0.415
+Mesh=TASM_Canister
+MeshPosition=0,0.050,-0.475
+Mesh=TASM_Canister
+MeshRotation=90,0,0
+MeshPosition=0,0,-0.445
+Mesh=TASM_Canister
+
+MeshRotation=0,0,0
+//Masts
+
+ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
+Material=ships/materials/wp_masts
+MeshPosition=0,0.030,0.107
+MastHeight=0.11
+MeshMast=wp_ssn_alfa_periscope
 
 ModelFile=ships/plan_ssn_han/plan_ssn_han
 Material=ships/materials/wp_masts
-
-MeshPosition=0.004,0.055,0.278
-MastHeight=0.085
-MeshMast=plan_ssn_han_periscope
-
-MeshPosition=0.004,0.055,0.251
-MastHeight=0.085
+MeshPosition=0,0.030,0.09
+MastHeight=0.090
 MeshMast=plan_ssn_han_esm
+MeshPosition=0,0,0.05
+MastHeight=0.1
+ChildMesh=plan_ssn_han_esm
 
-MeshPosition=-0,0.055,0.2313
-MastHeight=0.085
-MeshMast=plan_ssn_han_radar
 
-ModelFile=ships/plan_ssk_song/plan_ssk_song
+ModelFile=ships/wp_ssn_november/wp_ssn_november
+MeshPosition=0,0.030,0.06
+MastHeight=0.1
+MeshMast=wp_ssn_november_radar
 
 [Weapon Systems]
-
 //Torpedo Mounts
 MeshRotation=0,0,0
-
-//Port Side
 //Tube 1
-MeshPosition=-0.016,0.005,0.51
-TorpedoSpawnPosition=-0.016,0.005,0.51
-TorpedoEffectPosition=-0.016,0.005,0.51
+MeshRotation=0,0,0
+MeshPosition=-0.01,0.03,0.496
+TorpedoSpawnPosition=0.01,0.03,0.598
+TorpedoEffectPosition=0,0,0.0232
 
 //Tube 2
-MeshPosition=-0.016,-0.007,0.51
-TorpedoSpawnPosition=-0.016,-0.007,0.51
-TorpedoEffectPosition=-0.016,-0.007,0.51
+MeshRotation=0,0,0
+MeshPosition=0.01,0.03,0.496
+TorpedoSpawnPosition=-0.01,0.03,0.598
+TorpedoEffectPosition=0,0,0.0232
 
 //Tube 3
-MeshPosition=-0.016,-0.019,0.51
-TorpedoSpawnPosition=-0.016,-0.019,0.51
-TorpedoEffectPosition=-0.016,-0.019,0.51
+MeshRotation=0,0,0
+MeshPosition=-0.01,0.0126,0.504
+TorpedoSpawnPosition=0.01,0.0126,0.606
+TorpedoEffectPosition=0,0,0.0232
 
-//Starboard Side
 //Tube 4
-MeshPosition=0.016,0.005,0.51
-TorpedoSpawnPosition=0.016,0.005,0.51
-TorpedoEffectPosition=0.016,0.005,0.51
+MeshRotation=0,0,0
+MeshPosition=0.01,0.0126,0.504
+TorpedoSpawnPosition=-0.01,0.0126,0.606
+TorpedoEffectPosition=0,0,0.0232
 
 //Tube 5
-MeshPosition=0.016,-0.007,0.51
-TorpedoSpawnPosition=0.016,-0.007,0.51
-TorpedoEffectPosition=0.016,-0.007,0.51
+MeshRotation=0,0,0
+MeshPosition=-0.0274,0.0126,0.496
+TorpedoSpawnPosition=0.0274,0.0126,0.598
+TorpedoEffectPosition=0,0,0.0232
 
 //Tube 6
-MeshPosition=0.016,-0.019,0.51
-TorpedoSpawnPosition=0.016,-0.019,0.51
-TorpedoEffectPosition=0.016,-0.019,0.51
+MeshRotation=0,0,0
+MeshPosition=0.0274,0.0126,0.496
+TorpedoSpawnPosition=-0.0274,0.0126,0.598
+TorpedoEffectPosition=0,0,0.0232
 
 //Noisemaker Mount
 MeshRotation=0,0,0
@@ -177,34 +225,31 @@ MeshNoisemakerMount=FALSE
 
 //Wake
 MeshPosition=0,0,0
-CavitationParticle=ships/particles/plan_ssk_song_cavitation
-MeshPosition=0,0,-0.6496
 BowWaveParticle=ships/particles/bowwave_sub
 PropWashParticle=ships/particles/bowwave_small
-FunnelSmokeParticle=ships/particles/plan_ssk_song_bubbles
-EmergencyBlowParticle=ships/particles/plan_ssk_song_emergency_blow
+CavitationParticle=ships/particles/wp_ss_kilo_cavitation
+FunnelSmokeParticle=ships/particles/wp_ss_kilo_bubbles
+EmergencyBlowParticle=ships/particles/wp_ss_kilo_emergency_blow
 
-ParticleBowWavePosition=0,0,0.536
-ParticlePropWashPosition=0,-0.035,-0.594
+ParticleBowWavePosition=0,0,0.52
+ParticlePropWashPosition=0,-0.033,-0.48
 
-ParticleHullFoamPosition=0,0,0.262
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamPosition=0,0,0.338
+ParticleHullFoamParameters=10,0.2,0.2,0.055,0,0,0.25
 
-ParticleSternFoamPosition=0,0,-0.5
+ParticleSternFoamPosition=0,0,-0.43
 ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=1.7,1.7
+KelvinWaves=1.46,1.46
 
-EngineAudioClip=audio/units/submarine_engine_2
+EngineAudioClip=audio/units/submarine_engine_1
 EngineAudioRollOff=LOGARITHMIC
 EngineAudioDistance=1,20
 EngineAudioPitchRange=0.4,1
-MeshPosition=0,0.0002,-0.6382
 PropAudioClip=audio/units/submarine_propeller
 PropAudioRollOff=LOGARITHMIC
-PropAudioDistance=1,5
+PropAudioDistance=1,20
 PropAudioPitchRange=0.1,0.6
-MeshPosition=0,0.000,0.45
-PingAudioClip=audio/environment/sonar_ping
+PingAudioClip=audio/environment/sonar_ping_lf
 PingAudioRollOff=LOGARITHMIC
 PingAudioDistance=1,50
 PingAudioPitch=1
