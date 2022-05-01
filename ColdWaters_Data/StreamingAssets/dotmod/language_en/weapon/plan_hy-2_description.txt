@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=HY-2
+WeaponDescriptiveName=HY-2 SSM
+WeaponDescription=Special: The HY-1 and HY-2 received two separate NATO reporting name, the CSS-N-2 Safflower for the ship to ship version and the CSSC-2 Silkworm for the land based coastal defense variant. The missile features a round nose accommodating the radar seeker, a pair of mid-mounted delta wings on the middle section of missile body, and three tail control surfaces. The missile is powered by a liquid-fuel rocket motor, with a solid rocket booster attached under the missile fuselage.

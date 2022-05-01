@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Yu-3
+WeaponDescriptiveName=Yu-3 ASW/ASuW Torpedo
+WeaponDescription=Special: The Yu-3 (鱼-3) is a Chinese acoustic homing torpedo designed to be fired from submarines against surface targets. It entered service with the Chinese Navy in 1984. Several sources state that it may be a copy of the Soviet SET-65E, although this seems unlikely as development began in 1965 after the Sino-Soviet split.[1] It is therefore probably the first indigenously developed torpedo in China

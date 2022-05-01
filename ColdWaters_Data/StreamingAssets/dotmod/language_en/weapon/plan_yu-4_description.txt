@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Yu-4
+WeaponDescriptiveName=Yu-4 ASuW Torpedo
+WeaponDescription=Special: Yu-4 (鱼-4) torpedo is the Chinese development of the Russian SAET-50 ASuW passive acoustic homing torpedo, and it is the Russian SAET-50 torpedo incorporating active acoustic homing guidance. The background of the development of Yu-4 torpedo is identical to that of Yu-1 torpedo and Yu-2 torpedo.

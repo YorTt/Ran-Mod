@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=HQ-7
+WeaponDescriptiveName=HQ-7 SAM
+WeaponDescription=Special: The HQ-7 (FM-80) (Chinese: 红旗; pinyin: hóng qí, "red flag" or "red banner") is a Chinese short-range low altitude air defense missile reverse engineered from the French Crotale. The missile is deployed on both ships and land-based vehicles

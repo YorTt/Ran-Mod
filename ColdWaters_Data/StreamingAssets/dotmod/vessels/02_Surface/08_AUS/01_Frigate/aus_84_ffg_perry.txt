@@ -8,7 +8,7 @@ HullHeight=0.1
 Crew=176
 Range=4500
 HullNumbers=FFG-01.png,FFG-02.png,FFG-03.png,FFG-04.png,FFG-05.png,FFG-06.png
-AircraftNumbers=1
+AircraftNumbers=2
 AircraftTypes=usn_sh60b
 
 [Movement]
@@ -51,7 +51,7 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=1600
 
-TorpedoTypes=usn_mk46_mod_5
+TorpedoTypes=usn_mk46_mod_5,usn_moss_surf
 TorpedoNumbers=24
 TorpedoTubes=6
 TubeConfig=3,3

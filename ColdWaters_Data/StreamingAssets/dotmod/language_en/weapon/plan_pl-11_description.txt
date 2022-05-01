@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=PL-11
+WeaponDescriptiveName=PL-11 SAM
+WeaponDescription=Special: The PL-11 (Chinese: 霹雳-11; pinyin: Pī Lì-11; lit. 'Thunderbolt-11') is a medium-range semi-active radar homing (SARH) air-to-air missile (AAM) developed by a subsidiary of the Shanghai Academy of Spaceflight Technology in the People's Republic of China. It is a development or copy of the Italian Aspide AAM, which in turn was developed from the American AIM-7 Sparrow;
