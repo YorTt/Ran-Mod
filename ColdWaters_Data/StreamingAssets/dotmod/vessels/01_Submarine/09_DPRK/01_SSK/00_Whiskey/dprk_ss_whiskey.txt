@@ -43,8 +43,8 @@ RADAR=wp_flag
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=plan_yu-3,plan_yu-4,plan_yu-1
-Loadout_1=plan_yu-3,plan_yu-1,plan_yu-4
+TorpedoTypes=wp_set-65,wp_53-65,wp_saet-60m
+Loadout_1=wp_set-65,wp_53-65,wp_saet-60m
 TorpedoNumbers=6,4,2
 TorpedoTubes=6
 TubeConfig=1,1,1,1,1,1
@@ -105,7 +105,7 @@ MeshHullCollider=wp_ss_whiskey_coll_hull
 MeshSuperstructureCollider=wp_ss_whiskey_coll_ss
 
 Material=ships/wp_ss_whiskey/wp_ss_whiskey_mat
-MaterialTextures=vessels/textures/plan_ss_whiskey_tx.png,ships/wp_ss_whiskey/wp_ss_whiskey_spec,ships/wp_ss_whiskey/wp_ss_whiskey_nm
+MaterialTextures=vessels/textures/dprk_ss_whiskey_tx.png,ships/wp_ss_whiskey/wp_ss_whiskey_spec,ships/wp_ss_whiskey/wp_ss_whiskey_nm
 Mesh=wp_ss_whiskey
 MeshPosition=0,-0.0261,-0.5174
 MeshRudder=wp_ss_whiskey_rudder
