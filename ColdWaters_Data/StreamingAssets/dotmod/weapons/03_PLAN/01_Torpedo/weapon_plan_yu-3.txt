@@ -13,9 +13,9 @@ WeaponSpeed=35
 TurnRate=20
 MaxPitchAngle=40
 *
-HomeSettings=ACTIVE
+HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,SHALLOW,DEEP,DEEP_SUB
+DepthSettings=SHIP,LEVEL,SHALLOW,DEEP,DEEP_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=hud/sprites/wp_set-65_sprite.png

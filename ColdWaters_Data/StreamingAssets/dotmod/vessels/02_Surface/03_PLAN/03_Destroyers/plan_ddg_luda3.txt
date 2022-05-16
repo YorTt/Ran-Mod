@@ -7,7 +7,7 @@ Displacement=3230
 HullHeight=0.1
 Crew=284
 Range=3500
-HullNumbers=plan_105,plan_106,plan_107,plan_108,plan_109,plan_110,plan_131,plan_132,plan_133,plan_134,plan_160,plan_161,plan_162,plan_163,plan_164,plan_165,plan_166
+HullNumbers=plan_106,plan_107,plan_108,plan_109,plan_110,plan_131,plan_132,plan_133,plan_134,plan_160,plan_161,plan_162,plan_163,plan_164,plan_165,plan_166
 
 [Movement]
 SurfaceSpeed=38
@@ -51,8 +51,17 @@ TubeConfig=3,3
 TorpedoTubeSize=14
 TubeReloadTime=0
 
-MissileType=plan_c-801
-MissilesPerLauncher=4,4
+//CY-1 ASW
+MissileType=plan_cy-1
+MissilesPerLauncher=4
+
+//SSM Mount
+AntiShipMissileType=plan_c-801
+AntiShipMissileNumbers=8
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0.0,0.076,0.12|0.0,0.076,-0.25
+AntiShipMissileLaunchPointsRotation=-20,40,0|-20,-40,0
 
 RBULaunchers=plan_fqf2500_mortar,plan_fqf2500_mortar
 RBUSalvos=6,6
@@ -62,27 +71,29 @@ RBUFiringArcBearingMax=0,130
 [Defenses]
 Anti-MissileGunHitProbability=0.005
 Anti-MissileGunRange=4000
-Anti-MissileGunFiringArcStart=-120,-170,10,60
-Anti-MissileGunFiringArcFinish=120,-10,170,300
-Anti-MissileGunRestAngle=0,0,0,180
-Anti-MissileGunUsesRADAR=0,0,0,1
+Anti-MissileGunFiringArcStart=-120,-170,10
+Anti-MissileGunFiringArcFinish=120,-10,170
+Anti-MissileGunRestAngle=0,0,0
+Anti-MissileGunUsesRADAR=0,0,0
 Anti-MissileRADARRestAngle=0,180
 Anti-MissileGunParticle=ships/particles/plan_37mm_burst
 
 ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
-NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=15
-NoisemakerReloadTime=20
 
 AntiAirMissileType=plan_hq-7
 AntiAirMissilesNumbers=8
 AntiAirMissilesPerTarget=2
 AntiAirMissileReloadTime=10
 AntiAirMissileLaunchDepth=5
-AntiAirMissileLaunchPoints=0,0.1273,-0.443
-AntiAirMissileLaunchPointsRotation=20,0,0
+AntiAirMissileLaunchPoints=0.006,0.125,-0.44|-0.006,0.125,-0.44
+AntiAirMissileLaunchPointsRotation=-20,180,0
+
+
+NoisemakerName=wp_noisemaker
+NumberOfNoisemakers=15
+NoisemakerReloadTime=20
 
 [Model]
 ModelFile=ships/plan_ddg_luda3/plan_ddg_luda3
@@ -190,20 +201,16 @@ MeshTorpedoMount=plan_ddg_luda3_torpedomount
 TorpedoSpawnPosition=0.0216,0.0047,0.0054
 TorpedoEffectPosition=0,0.0055,0.041
 
-//Missile Mounts
-MeshRotation=-20,0,0
-MeshPosition=0.0,0.076,0.121
+//CY-1 ASW Mount
+MeshRotation=-20,30,0
+MeshPosition=0.0,0.076,0.12
 MeshMissileMount=FALSE
-MeshRotation=0,0,0
-MissileEffectPosition=-0.01,-0.002,-0.055
+MeshRotation=-20,40,0
+MissileEffectPosition=0.0,0.076,0.12
 
-MeshRotation=-20,0,0
-MeshPosition=0.0,0.076,-0.2572
-MeshMissileMount=FALSE
-MeshRotation=0,0,0
-MissileEffectPosition=0.01,-0.002,-0.055
 
 //RBU
+MeshRotation=0,0,0
 MeshPosition=-0.04,0.1,0.7766
 MeshRBULauncher=plan_ddg_luda3_eds25
 MeshPosition=0,0,0
@@ -240,18 +247,62 @@ MeshPosition=0,0.0144,0.001
 Material=ships/materials/modular_parts
 ChildMesh=plan_ddg_luda3_type76_gun
 
+//AAM
 AssetBundle=bundles/parts/usn_parts.unity3d
+MeshRotation=0,0,0
+MeshPosition=0,0.092,-0.443
+ModelFile=assets/models/usn_parts_mk92.fbx
+Material=assets/materials/usn_parts_mk92.mat
+Mesh=usn_parts_mk92_stir_turret
+
 MeshRotation=0,180,0
-MeshPosition=0,0.1016,-0.443
-ModelFile=assets/models/usn_parts_mk29.fbx
-Material=assets/materials/usn_parts_mk29.mat
-Mesh=usn_parts_mk29_base
-Mesh=usn_parts_mk29_pedestal
-MeshRotation=20,0,0
-MeshPosition=0,0.1273,-0.443
-Mesh=usn_parts_mk29_launcher
+AssetBundle=bundles/dotmod/weapons/usn/usn_mk46
+ModelFile=assets/resourcesforbundles/weapons/usn/usn_mk46/usn_mk46.obj
+Material=assets/resourcesforbundles/weapons/usn/usn_mk46/usn_mk46_mat.mat
+MaterialTextures=vessels/textures/plan_hq-7_tx.png
+MeshPosition=0.002,0.125,-0.44
+Mesh=mk46
+MeshPosition=-0.002,0.125,-0.44
+Mesh=mk46
+MeshPosition=0.006,0.125,-0.44
+Mesh=mk46
+MeshPosition=-0.006,0.125,-0.44
+Mesh=mk46
+
+
+MeshPosition=0.002,0.120,-0.44
+Mesh=mk46
+MeshPosition=-0.002,0.120,-0.44
+Mesh=mk46
+MeshPosition=0.006,0.120,-0.44
+Mesh=mk46
+MeshPosition=-0.006,0.120,-0.44
+Mesh=mk46
+
+MeshRotation=0,0,0
+MeshPosition=0.002,0.125,-0.44
+Mesh=mk46
+MeshPosition=-0.002,0.125,-0.44
+Mesh=mk46
+MeshPosition=0.006,0.125,-0.44
+Mesh=mk46
+MeshPosition=-0.006,0.125,-0.44
+Mesh=mk46
+
+
+MeshPosition=0.002,0.120,-0.44
+Mesh=mk46
+MeshPosition=-0.002,0.120,-0.44
+Mesh=mk46
+MeshPosition=0.006,0.120,-0.44
+Mesh=mk46
+MeshPosition=-0.006,0.120,-0.44
+Mesh=mk46
+
+
 
 ModelFile=ships/plan_ddg_luda3/plan_ddg_luda3
+Material=ships/materials/modular_parts
 MeshRotation=0,0,0
 MeshPosition=0,0.2368,0.409
 MeshCIWSRADAR=plan_ddg_luda3_rice_lamp

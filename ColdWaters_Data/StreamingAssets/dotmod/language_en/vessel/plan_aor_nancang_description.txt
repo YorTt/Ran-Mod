@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Nancang
+Description=Nancang-class Type 908 Auxiliary Oiler Replenishment (AOR)
+History=The "Nancang"-class auxiliary oiler replenishment (AOR) ship is used by the People's Liberation Army Navy to resupply ships at sea with food, munitions, fuel and spare parts. The only ship in this class, is Qinghaihu (Pennant number 885), ex Nancang (Nanyun 953). She was originally laid down for the Soviet Navy as a Komandarn Fedko class merchant tanker, but building work was halted due to insufficient funds, and was then purchased by the PLAN from the Russian Navy unfinished in 1993. The ship has a near sister ship operating with the Indian Navy.

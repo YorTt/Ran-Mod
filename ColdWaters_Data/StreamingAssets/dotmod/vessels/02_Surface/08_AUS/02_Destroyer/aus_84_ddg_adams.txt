@@ -52,73 +52,51 @@ NavalGunShellNumbers=1600
 
 TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=18
-TorpedoTubes=7
-TubeConfig=1,1,1,1,1,1,1
-TorpedoTubeSize=324,324,324,324,324,324,533
+TorpedoTubes=6
+TubeConfig=3,3
+TorpedoTubeSize=324
 TubeReloadTime=180
 
-VLSTorpedoTypes=aus_ikara_F2-0
-VLSTorpedoNumbers=8
-VLSMaxDepthToFire=300
-VLSMaxSpeedToFire=40
+MissileType=aus_ikara_F2-0
+MissileLauncherBearingMin=-165
+MissileLauncherBearingMax=165
+MissileLauncherRestBearing=0
+MissileLauncherTraverseRate=15
+MissileLauncherElevationMin=5
+MissileLauncherElevationMax=-90
+MissileLauncherRestElevation=-45
+MissileLauncherElevationRate=15
+MissilesPerLauncher=8
+
+AntiShipMissileType=usn_ugm84
+AntiShipMissileNumbers=10
+AntiShipMissileReloadTime=22
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0,0.11,-0.612
+AntiShipMissileLaunchPointsRotation=-30,180,0
+
+MissileLauncherMaxSalvo=1
+MissileLauncherSalvo=1
+MissileLauncherReloadBearing=0
+MissileLauncherReloadElevation=0
+MissileLauncherReloadTime=2
+MissileLauncherReloads=22
 
 [Defenses]
 
-AntiAirMissileType=usn_ugm84
-AntiAirMissilesNumbers=12
+AntiAirMissileType=usn_rim-66e
+AntiAirMissilesNumbers=30
 AntiAirMissilesPerTarget=2
-AntiAirMissileReloadTime=22
+AntiAirMissileReloadTime=8
 AntiAirMissileLaunchDepth=300
 AntiAirMissileLaunchPoints=0,0.11,-0.612
 AntiAirMissileLaunchPointsRotation=-30,180,0
 
-AutoMissileType=usn_rim-66e
-AutoMissilesNumbers=28
-AutoMissilesPerTarget=1
-AutoMissileReloadTime=8
-AutoMissileLaunchDepth=15
-AutoMissileLaunchPoints=0,0.11,-0.612
-AutoMissileLaunchPointsRotation=-30,180,0
 
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=28
 NoisemakerReloadTime=17
 
-[Subsystems]
-LabelPosition=370,39
-BOWSONAR=FRONT
-LabelPosition=50,39
-TOWED=FALSE
-LabelPosition=23,204
-PERISCOPE=SAIL
-LabelPosition=23,183
-ESM_MAST=SAIL
-LabelPosition=23,162
-RADAR_MAST=SAIL
-LabelPosition=151,39
-TUBES=AFT
-LabelPosition=372,183
-FIRECONTROL=FORE
-LabelPosition=252,39
-PUMPS=MID,AFT
-LabelPosition=151,60
-PROPULSION=AFT,REAR
-LabelPosition=50,60
-RUDDER=REAR
-LabelPosition=372,60
-PLANES=FALSE
-LabelPosition=372,162
-BALLAST=FALSE
-LabelPosition=252,60
-REACTOR=MID
-
-[Flooding Display: x,width,ymin,ymax]
-FLOODING1=130,71,-77,-49
-FLOODING2=59,68,-77,-49
-FLOODING3=2,44,-77,-49
-FLOODING4=-44,46,-77,-49
-FLOODING5=-92,48,-77,-49
-DamageControlPartyY=-36
 
 [Model]
 ModelFile=ships/plan_ddg_luda3/plan_ddg_luda3
@@ -278,38 +256,13 @@ ModelFile=ships/usn_cg_belknap/usn_cg_belknap
 //Torpedo Mounts
 MeshRotation=0,0,0
 MeshPosition=-0.075,0.0634,0.2934
-Mesh=usn_cg_belknap_torpedomount
+MeshTorpedoMount=usn_cg_belknap_torpedomount
+TorpedoSpawnPosition=-0.075,0.0634,0.2934
+TorpedoEffectPosition=-0.075,0.0634,0.2934
 
 MeshRotation=0,0,0
 MeshPosition=0.075,0.0634,0.2934
-Mesh=usn_cg_belknap_torpedomount
-
-//Левый борт
-MeshRotation=0,0,0
-//Tube 1
-MeshPosition=-0.075,0.0634,0.2934
-TorpedoSpawnPosition=0.075,0.0634,0.2934
-TorpedoEffectPosition=0.075,0.0634,0.2934
-//Tube 2
-MeshPosition=-0.075,0.0634,0.2934
-TorpedoSpawnPosition=0.075,0.0634,0.2934
-TorpedoEffectPosition=0.075,0.0634,0.2934
-//Tube 3
-MeshPosition=-0.075,0.0634,0.2934
-TorpedoSpawnPosition=0.075,0.0634,0.2934
-TorpedoEffectPosition=0.075,0.0634,0.2934
-//Правый борт
-MeshRotation=0,0,0
-//Tube 4
-MeshPosition=0.075,0.0634,0.2934
-TorpedoSpawnPosition=0.075,0.0634,0.2934
-TorpedoEffectPosition=0.075,0.0634,0.2934
-//Tube 5
-MeshPosition=0.075,0.0634,0.2934
-TorpedoSpawnPosition=0.075,0.0634,0.2934
-TorpedoEffectPosition=0.075,0.0634,0.2934
-//Tube 6
-MeshPosition=0.075,0.0634,0.2934
+MeshTorpedoMount=usn_cg_belknap_torpedomount
 TorpedoSpawnPosition=0.075,0.0634,0.2934
 TorpedoEffectPosition=0.075,0.0634,0.2934
 
@@ -317,10 +270,9 @@ TorpedoEffectPosition=0.075,0.0634,0.2934
 //VLS
 MeshRotation=-55,70,0
 MeshPosition=0.065,0.09,0.22
-TorpedoSpawnPosition=0.065,0.09,0.22
-TorpedoEffectPosition=0.065,0.09,0.22
-VLSLaunchPoints=0.065,0.09,0.22|-0.065,0.09,0.22
-VLSLaunchPointsRotation=-55,70,0|-55,-70,0
+MeshMissileMount=FALSE
+MeshRotation=0,0,0
+MissileEffectPosition=0,0,0
 
 //Noisemaker Mount
 MeshRotation=0,0,0

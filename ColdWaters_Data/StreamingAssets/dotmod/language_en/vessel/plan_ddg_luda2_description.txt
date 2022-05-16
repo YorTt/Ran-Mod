@@ -1,0 +1,5 @@
+[Unit Reference]
+ShipClass=Luda II
+Description=Luda II-class Type 051 Destroyer
+Aircraft=1 Z-9 Dauphin Helicopter
+History=The Luda II was a helicopter destroyer. The gun turrets abaft the aft missile launcher was replaced by a hangar and flight deck for two Harbin Z-9C helicopters. One Type 051, Jinan, was converted into a Luda II in 1987 for trials.

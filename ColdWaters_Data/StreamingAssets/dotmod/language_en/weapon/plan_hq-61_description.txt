@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=HQ-61
+WeaponDescriptiveName=HQ-61 SAM
+WeaponDescription=The Hongqi-61 (Chinese: 红旗-61; pinyin: Hóng Qí-61; lit. 'Red Banner-61') is the first generation Chinese SARH guided surface-to-air missile (SAM). It is classified by Chinese as a low-to-medium air defense missile. The naval and anti-radiation versions have been retired from Chinese service but PL-11, the air-to-air version and HQ-61A, the land-based mobile version are still currently in limited service with the Chinese military. It is a development or copy of the Italian Aspide AAM, which in turn was developed from the American AIM-7 Sparrow.

@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Najin
+Description=Najin-class Frigate
+History=The North Korean Najin-class frigates are some of the largest vessels in the Korean People's Navy. Although they bear a striking resemblance to ex-Soviet Kola-class frigates, they are unrelated to any Russian or Chinese design. The class was originally fitted with a trainable triple 21-inch (533 mm) torpedo launcher, which was replaced in the mid-1980s with fixed Styx missile launchers taken from Osa-class missile boats. 

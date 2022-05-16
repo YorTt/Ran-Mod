@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Collins
-Description=Collins Class SSK
+Description=Collins Class SSG
 History=The Collins-class submarines are Australian-built diesel-electric submarines operated by the Royal Australian Navy (RAN). Replacing the aging Oberon submarines, the six vessels were the first submarines built in Australia, prompting widespread improvements in Australian industry and delivering a sovereign (Australian controlled) sustainment/maintenance capability.
 
 [Player Ship Instances]

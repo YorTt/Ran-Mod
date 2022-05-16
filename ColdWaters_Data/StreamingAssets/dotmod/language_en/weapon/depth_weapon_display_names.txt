@@ -34,6 +34,8 @@ wp_ak-725_shell=AK-725 Guns=AK-725
 
 plan_type_79a_shell=Type 79A Guns=100mm/56 Type 79A
 
+plan_type_79_shell=Type 79 Guns=100mm/56 Type 79
+
 wp_depth_bomb=Depth Bomb 25=Very Light Aerial Dropped Depth Bomb
 
 wp_depth_bomb_50=Depth Bomb PLAB-50=PLAB-50 Light Aerial Dropped Depth Bomb
@@ -47,5 +49,3 @@ wp_depth_bomb_500=Depth Bomb KAB-500=KAB-500PL Zagon Guided Heavy Aerial Dropped
 usn_mk-54_depth_bomb=Mk 54=Mk 54 Light Aerial Dropped Depth Bomb
 
 wp_proximity_mine=Proximity Mine=Proximity Mine
-
-aus_bofors_40_shell=40mm Bofors Gun=40mm Bofors Gun

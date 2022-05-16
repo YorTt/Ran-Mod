@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Golf
+Description=Type 031 Golf-class Diesel-Electric Ballistic Missile Submarine
+
+History=Type 6631 went through a second major refit, which was completed in November 1978. The most important improvement is the ability to launch SLBMs under water. In addition to changing to Type 031 from the original Type 6631, the unit also received the name Great Wall, when China began restore the practice of naming its warships in the 1980s. The unit is hence usually referred as Great Wall 200
+
+[Player Ship Instances]
+PlayerClassNames=
+PlayerClassHullNumbers=200

@@ -37,10 +37,10 @@ RADAR=wp_snoop_plate
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=plan_yu-3,plan_yu-4,wp_moss_mg-74
-TorpedoNumbers=8,6,0
+TorpedoTypes=plan_yu-5,plan_yu-4,wp_moss_mg-74
+TorpedoNumbers=8,4,2
 TorpedoTubes=8
-NumberOfWires=1
+NumberOfWires=2
 TubeConfig=1,1,1,1,1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=45

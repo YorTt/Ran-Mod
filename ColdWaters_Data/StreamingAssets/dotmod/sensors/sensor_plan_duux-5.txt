@@ -1,0 +1,8 @@
+SonarModel=plan_duux-5
+SonarType=PASSIVE
+SonarFrequencies=L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=32
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=0

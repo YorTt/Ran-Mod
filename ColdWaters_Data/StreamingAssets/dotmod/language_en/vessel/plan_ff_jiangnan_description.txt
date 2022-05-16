@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Jiangnan
+Description=Jiangnan-class Type 065 Frigate
+History=Based on the Chengdu class. design first started in Dec 1962 by the 701st Institute at Wuhan, and the construction begun in Aug 1964, with the first ship entering service on Aug 1, 1966. Powered by modified civilian diesel engine rather than military-grade steam turbines. Main guns were mounted one forward and two aft, instead of two forward and one aft on the Chengdu-class.

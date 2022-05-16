@@ -42,10 +42,10 @@ RADARSignature=SMALL
 TowedArrayPosition=0.0718,0,-0.55
 
 [Weapon Systems]
-TorpedoTypes=plan_yu-5,plan_c-801,wp_moss_mg-74
-TorpedoNumbers=12,6,2
+TorpedoTypes=plan_yu-5,plan_cy-1,plan_c-801,wp_moss_mg-74
+TorpedoNumbers=10,4,4,2
 TorpedoTubes=6
-NumberOfWires=1
+NumberOfWires=2
 TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533
 TubeReloadTime=45

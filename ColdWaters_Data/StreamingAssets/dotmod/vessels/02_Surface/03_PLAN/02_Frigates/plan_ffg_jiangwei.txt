@@ -53,8 +53,17 @@ TubeConfig=3,3
 TorpedoTubeSize=14
 TubeReloadTime=0
 
-MissileType=plan_c-801
-MissilesPerLauncher=3,3
+//CY-1 ASW
+MissileType=plan_cy-1
+MissilesPerLauncher=3
+
+//SSM
+AntiShipMissileType=plan_c-801
+AntiShipMissileNumbers=6
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0.0,0.1253,0.009|0.0,0.1253,0.1583
+AntiShipMissileLaunchPointsRotation=345,90,0|345,270,0
 
 RBULaunchers=plan_type87_mortar,plan_type87_mortar
 RBUSalvos=8,8
@@ -78,8 +87,8 @@ NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=12
 NoisemakerReloadTime=21
 
-AntiAirMissileType=plan_pl-11
-AntiAirMissilesNumbers=6
+AntiAirMissileType=plan_hq-61
+AntiAirMissilesNumbers=12
 AntiAirMissilesPerTarget=2
 AntiAirMissileReloadTime=10
 AntiAirMissileLaunchDepth=5
@@ -141,7 +150,6 @@ Mesh=plan_ffg_jiangwei_airwing_shadow
 
 //RADARs
 RADARDirection=1
-
 RADARSpeed=100
 Material=ships/materials/wp_headnet_c
 MeshPosition=0,0.3384,0.0777
@@ -153,13 +161,16 @@ MeshPosition=0,0.188,-0.2349
 MeshRADAR=plan_ffg_jiangwei_pea_sticks,plan_ffg_jiangwei_pea_sticks_d
 
 //Naval Guns
+ModelFile=ships/plan_ddg_luhu/plan_ddg_luhu
+Material=ships/plan_ddg_luhu/plan_ddg_luhu_mat
 MeshRotation=0,0,0
 MeshPosition=0,0.071,0.5475
-MeshNavalGun=plan_ffg_jiangwei_100mm_turret
+MeshNavalGun=plan_ddg_luhu_100mm_turret
 MeshPosition=0,0.0246,0.001
-MeshNavalGunBarrel=plan_ffg_jiangwei_100mm_gun
+MeshNavalGunBarrel=plan_ddg_luhu_100mm_gun
 NavalGunSpawnPosition=0,0,0.12
 
+ModelFile=ships/plan_ffg_jiangwei/plan_ffg_jiangwei
 //Torpedo Mounts
 Material=ships/materials/modular_parts
 MeshPosition=-0.075,0.07,-0.2372
@@ -172,19 +183,12 @@ MeshTorpedoMount=plan_ffg_jiangwei_torpedomount
 TorpedoSpawnPosition=0.0216,0.0047,0.0054
 TorpedoEffectPosition=0,0.0055,0.041
 
-//Missile Mounts
+//CY-1 ASW Mount
 MeshRotation=345,90,0
 MeshPosition=0.0,0.1253,0.009
 MeshMissileMount=FALSE
 MeshRotation=0,0,0
 MissileEffectPosition=-0.01,-0.002,0.055
-
-MeshRotation=345,270,0
-MeshPosition=0.0,0.1253,0.1583
-MeshMissileMount=FALSE
-MeshRotation=0,0,0
-MissileEffectPosition=0.01,-0.002,0.055
-
 
 //RBU
 Material=ships/materials/modular_parts

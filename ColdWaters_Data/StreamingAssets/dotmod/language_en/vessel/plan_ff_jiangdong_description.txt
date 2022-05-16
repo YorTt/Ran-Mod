@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Jiangdong
+Description=Jiangdong-class Type 053K Frigate
+History=Air-defense version of the Chengdu class frigate, armed with two twin-armed HQ-61 surface-to-air missile (SAM) launchers. Only two built.

@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Romeo
+Description=Romeo-class Type 033 Diesel-Electric Attack Submarine
+
+History=The ROMEO Class are the largest submarines in North Korean inventory. 7 boats were imported from China in 1973 and then construction of the first 11 local versions took place with Chinese assistance at Sinpo shipyard on the East Coast from 1974 to 1979. Production resumed, probably without Chinese help, from 1985 to 1996. As many as 20 are reported in service although numbers are likely declining over time.
+
+[Player Ship Instances]
+PlayerClassNames=,,,,,,,,,,,,,,,,,,,
+PlayerClassHullNumbers=01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20

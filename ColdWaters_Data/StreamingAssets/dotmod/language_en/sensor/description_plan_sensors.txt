@@ -1,0 +1,2 @@
+plan_sq2_262c=H/SQ2-262C=Chinese H/SQ2-262C active sonar (improved Pike Jaw MG-100 sonar)
+plan_duux-5=DUUX-5=Chinese copy of the French DUUX-5 passive sonar

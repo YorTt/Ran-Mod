@@ -59,14 +59,6 @@ TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533
 TubeReloadTime=45
 
-AntiAirMissileType=wp_igla
-AntiAirMissilesNumbers=8
-AntiAirMissilesPerTarget=1
-AntiAirMissileReloadTime=12
-AntiAirMissileLaunchDepth=25
-AntiAirMissileLaunchPoints=-0.004,0.14,0.278
-AntiAirMissileLaunchPointsRotation=-90,0,0
-
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=18
 NoisemakerReloadTime=20

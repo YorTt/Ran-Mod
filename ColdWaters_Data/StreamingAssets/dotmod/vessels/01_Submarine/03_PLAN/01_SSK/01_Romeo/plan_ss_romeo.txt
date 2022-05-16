@@ -30,19 +30,19 @@ TestDepth=985
 [Acoustics & Sensors]
 SelfNoise=133
 ActiveSonarReflection=18
-ActiveSonarModel=wp_mg-200
-PassiveSonarModel=wp_mg-10
+ActiveSonarModel=plan_sq2_262c
+PassiveSonarModel=plan_duux-5
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=wp_flag
+RADAR=wp_snoop_tray
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=plan_yu-1,plan_yu-4
-TorpedoNumbers=10,4
-TorpedoTubes=6
+TorpedoTypes=plan_yu-3,plan_yu-4,plan_yu-1
+TorpedoNumbers=8,4,2
+TorpedoTubes=8
 TubeConfig=1,1,1,1,1,1,1,1
-TorpedoTubeSize=21
+TorpedoTubeSize=533,533,533,533,533,533,533,533
 TubeReloadTime=45
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=10

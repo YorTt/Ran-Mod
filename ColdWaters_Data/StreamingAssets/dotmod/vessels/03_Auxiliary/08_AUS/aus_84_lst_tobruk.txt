@@ -17,7 +17,7 @@ HullNumbers=LST-50
 SurfaceSpeed=18
 SubmergedSpeed=18
 TelegraphSpeeds=-5,0,5,7,9,12,18
-AccelerationRate=0.02
+AccelerationRate=0.08
 DecelerationRate=0.02
 RudderTurnRate=0.5
 TurnRate=0.4
@@ -35,31 +35,26 @@ PeriscopeDepthInFeet=1
 Diesel=TRUE
 
 [Weapon Systems]
-NavalGuns=aus_bofors_40_shell,aus_bofors_40_shell
-NavalGunFiringArcBearingMin=-135,-135
-NavalGunFiringArcBearingMax=135,135
-NavalGunRestAngle=0,0
-NavalGunParticle=weapons/assets/SmallMuzzleFlash
-NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
-NavalGunShellNumbers=4800
 
 TorpedoTypes=usn_moss_surf
-TorpedoNumbers=2
+TorpedoNumbers=4
 TorpedoTubes=1
 TubeConfig=1
 TorpedoTubeSize=324
 TubeReloadTime=180
 
 [DEFENSE]
-Anti-MissileGunHitProbability=0.02
+Anti-MissileGunHitProbability=0.002
 Anti-MissileGunRange=3000
-Anti-MissileGunFiringArcStart=0
-Anti-MissileGunFiringArcFinish=0
-Anti-MissileGunRestAngle=0
-Anti-MissileGunUsesRADAR=0
-Anti-MissileRADARRestAngle=0
+Anti-MissileGunFiringArcStart=-179,25
+Anti-MissileGunFiringArcFinish=-30,170
+Anti-MissileGunRestAngle=0,0
+Anti-MissileGunUsesRADAR=0,1
+Anti-MissileRADARRestAngle=0,0
+Anti-MissileGunParticle=ships/particles/plan_25mm_burst
 PlayerWarningRange=2500
-JammingRange=3000
+JammingRange=2000
+
 
 ChaffType=wp_chaff
 ChaffProbability=0.99
@@ -308,9 +303,7 @@ MeshPosition=-0.075,0.0634,0.2934
 TorpedoSpawnPosition=0.075,0.0634,0.2934
 TorpedoEffectPosition=0.075,0.0634,0.2934
 
-//Gun
-//40mm Bofors Naval Gun
-
+//Missile Defense CIWS Guns
 ModelFile=assets/models/usn_parts_mk75.fbx
 Material=assets/materials/usn_parts_mk75.mat
 MeshRotation=0,0,180
@@ -324,34 +317,29 @@ MeshRotation=0,0,0
 MeshPosition=-0.04,0.145,0.5
 ModelFile=ships/plan_ptg_huangfeng/plan_ptg_huangfeng
 Material=ships/plan_ptg_huangfeng/plan_ptg_huangfeng_mat
-MeshNavalGun=plan_ptg_huangfeng_25mm
+MeshCIWSGun=plan_ptg_huangfeng_25mm
+MeshCIWSRADAR=FALSE
 MeshRotation=0,0,0
 MeshPosition=0,0.005,0.005
 Material=ships/materials/crew_soviet
 ChildMesh=plan_ptg_huangfeng_25mm_crew,HIDE
 
-MeshNavalGunBarrel=plan_ptg_huangfeng_25mm_gun
-NavalGunSpawnPosition=0,0.008,0.010
+MeshPosition=0,0.008,0.010
+ChildMesh=plan_ptg_huangfeng_25mm_gun
 
 MeshRotation=0,0,0
 MeshPosition=0.04,0.145,0.5
 ModelFile=ships/plan_ptg_huangfeng/plan_ptg_huangfeng
 Material=ships/plan_ptg_huangfeng/plan_ptg_huangfeng_mat
-MeshNavalGun=plan_ptg_huangfeng_25mm
+MeshCIWSGun=plan_ptg_huangfeng_25mm
+MeshCIWSRADAR=FALSE
 MeshRotation=0,0,0
 MeshPosition=0,0.005,0.005
 Material=ships/materials/crew_soviet
 ChildMesh=plan_ptg_huangfeng_25mm_crew,HIDE
 
-MeshNavalGunBarrel=plan_ptg_huangfeng_25mm_gun
-NavalGunSpawnPosition=0,0.008,0.010
-
-//fake CIWS
-MeshRotation=0,0,0
-MeshPosition=0,0,0
-MeshCIWSGun=FALSE
-MeshPosition=0,0,0
-MeshCIWSRADAR=FALSE
+MeshPosition=0,0.008,0.010
+ChildMesh=plan_ptg_huangfeng_25mm_gun
 
 
 //Noisemaker Mount

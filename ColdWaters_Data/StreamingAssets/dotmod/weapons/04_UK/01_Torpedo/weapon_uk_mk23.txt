@@ -9,7 +9,7 @@ SensorAngles=30,15
 WireGuided=TRUE
 WireBreakOnLaunchProbability=0.1
 WireBreakOnRunProbability=0.06
-WireBreakSpeedThreshold=5
+WireBreakSpeedThreshold=10
 
 //=MaxLaunchDepth=???
 //=MaxDepth=???

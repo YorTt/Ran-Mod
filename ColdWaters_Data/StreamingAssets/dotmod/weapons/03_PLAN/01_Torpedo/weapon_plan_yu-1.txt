@@ -5,8 +5,7 @@ Warhead=400
 SensorRange=880
 SensorAngles=30,15
 *
-//=MaxLaunchDepth=???
-//=MaxDepth=???
+MaxDepth=20
 *
 WeaponRanges=9842,3827
 WeaponSpeed=39,50
@@ -14,8 +13,8 @@ TurnRate=20
 MaxPitchAngle=45
 *
 HomeSettings=PASSIVE
-AttackSettings=SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,SHIP,DEEP_SUB
+AttackSettings=STRAIGHT
+DepthSettings=SHIP
 *
 WeaponNoiseValues=140,230
 WeaponSprite=hud/sprites/plan_yu-1_sprite.png

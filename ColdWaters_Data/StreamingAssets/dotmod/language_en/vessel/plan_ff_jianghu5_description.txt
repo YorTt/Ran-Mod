@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Jianghu V
+Description=Jianghu V-class Type 053H2G Frigate
+History=Originally an economy class based on the Jianghu. Six built by the Guangzhou-based Huangpu Shipyard in the 1990s to meet an urgent need for ships by the South Sea Fleet. Incorporated improvements from the Type 053H2, including air-tight cabins, central air conditioning, NBC protection, and integrated combat system. The sonar for Jianghu-V is EH-5A, the latest variant of SJD-5/EH-5/Echo Type 5 family, and it's a highly digitized version. Initially armed with six obsolescent SY-1A in two tripled-box launchers, later upgraded to eight YJ-83 SSM in two four-box launchers.

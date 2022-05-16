@@ -16,11 +16,11 @@ HullNumbers=FFG-01.png,FFG-02.png,FFG-03.png,FFG-04.png,FFG-05.png,FFG-06.png
 SurfaceSpeed=29
 SubmergedSpeed=29
 TelegraphSpeeds=-5,0,5,10,15,20,29
-AccelerationRate=0.32
-DecelerationRate=0.28
+AccelerationRate=0.28
+DecelerationRate=0.20
 RudderTurnRate=1
 TurnRate=0.9
-PivotPointTurning=0.15
+PivotPointTurning=0.55
 DiveRate=0
 SurfaceRate=3
 BallastRate=0
@@ -53,15 +53,15 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=1600
 
-TorpedoTypes=usn_mk46_mod_5,usn_moss_surf
-TorpedoNumbers=12,2
+TorpedoTypes=usn_mk46_mod_5,usn_moss_surf,aus_s-70b_asw
+TorpedoNumbers=12,2,2
 TorpedoTubes=7
 TubeConfig=1,1,1,1,1,1,1
-TorpedoTubeSize=324,324,324,324,324,324,533
+TorpedoTubeSize=324,324,324,324,324,324,100
 TubeReloadTime=180
 
 [Defenses]
-Anti-MissileGunHitProbability=0.025
+Anti-MissileGunHitProbability=0.018
 Anti-MissileGunRange=3300
 Anti-MissileGunFiringArcStart=20
 Anti-MissileGunFiringArcFinish=-20
@@ -77,7 +77,7 @@ NumberChaffLaunched=2
 
 Special=AEGIS
 AntiAirMissileType=usn_ugm84
-AntiAirMissilesNumbers=12
+AntiAirMissilesNumbers=10
 AntiAirMissilesPerTarget=2
 AntiAirMissileReloadTime=22
 AntiAirMissileLaunchDepth=300
@@ -85,7 +85,7 @@ AntiAirMissileLaunchPoints=0,0.137,0.5627
 AntiAirMissileLaunchPointsRotation=-20,0,0
 
 AutoMissileType=usn_rim-66e
-AutoMissilesNumbers=28
+AutoMissilesNumbers=30
 AutoMissilesPerTarget=1
 AutoMissileReloadTime=8
 AutoMissileLaunchDepth=15
@@ -226,7 +226,7 @@ Mesh=usn_parts_phalanx_mount
 //Торпедные аппараты
 Material=ships/materials/usn_parts
 
-//1й - 3й по левому борту
+//Torpedo
 MeshRotation=0,-30,0
 MeshPosition=-0.10752,0.07162,0.04253
 TorpedoSpawnPosition=-0.10752,0.07162,0.04253
@@ -240,7 +240,7 @@ MeshPosition=-0.11085,0.06501,0.04029
 TorpedoSpawnPosition=-0.11085,0.06501,0.04029
 TorpedoEffectPosition=-0.11085,0.06501,0.04029
 
-//4й - 6й по правому борту
+//Torpedo
 MeshRotation=0,30,0
 MeshPosition=0.10752,0.07162,0.04253
 TorpedoSpawnPosition=0.10752,0.07162,0.04253
@@ -254,11 +254,12 @@ MeshPosition=0.11085,0.06501,0.04029
 TorpedoSpawnPosition=0.11085,0.06501,0.04029
 TorpedoEffectPosition=0.11085,0.06501,0.04029
 
-//УВП
-MeshRotation=-20,0,0
-MeshPosition=0,0.12,0.54
-TorpedoSpawnPosition=0,0.12,0.54
-TorpedoEffectPosition=0,0.12,0.54
+//Flight Deck Takeoff
+
+MeshPosition=0,48,0
+TorpedoSpawnPosition=0,0.11,-0.65
+TorpedoEffectPosition=0,0.11,-0.65
+
 
 //Noisemaker Mount
 MeshRotation=0,0,0
@@ -295,6 +296,7 @@ Mesh=usn_cg_belknap_torpedomount
 MeshRotation=0,30,0
 MeshPosition=0.0891,0.0728,-0.0959
 Mesh=usn_cg_belknap_torpedomount
+
 
 //Wake and Smoke
 MeshRotation=0,0,0

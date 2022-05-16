@@ -46,8 +46,17 @@ NavalGunRestAngle=0
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
-MissileType=plan_c-801
-MissilesPerLauncher=4,4
+//CY-1 ASW
+MissileType=plan_cy-1
+MissilesPerLauncher=4
+
+//SSM Mount
+AntiShipMissileType=plan_c-801
+AntiShipMissileNumbers=8
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0.0,0.1552,-0.1793|0.0,0.1552,-0.3735
+AntiShipMissileLaunchPointsRotation=345,90,0|345,270,0
 
 RBULaunchers=plan_type87_mortar,plan_type87_mortar
 RBUSalvos=6,6
@@ -175,12 +184,6 @@ MeshPosition=0.0,0.1552,-0.1793
 MeshMissileMount=FALSE
 MeshRotation=0,0,0
 MissileEffectPosition=-0.01,-0.002,-0.055
-
-MeshRotation=345,270,0
-MeshPosition=0.0,0.1552,-0.3735
-MeshMissileMount=FALSE
-MeshRotation=0,0,0
-MissileEffectPosition=0.01,-0.002,-0.055
 
 //RBU
 MeshPosition=-0.04,0.113,0.732

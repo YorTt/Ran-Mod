@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Haiqing
+Description=Haiqing-class Type 037IS submarine chaser
+History=The Type 037IS submarine chaser (NATO reporting name: Haiqing class), is a follow-on class of submarine chasers to the preceding Type 037-class of the People's Liberation Army Navy. The ships are armed with two 6-tubed anti-submarine mortar launchers. The earlier boats are fitted with two manually operated twin-barrel 37 mm guns, but they have been replaced by two automatic 37 mm guns on the later variants.

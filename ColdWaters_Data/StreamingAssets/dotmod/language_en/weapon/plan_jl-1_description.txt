@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=JL-1 SLBM
+WeaponDescriptiveName=JL-1 SLBM
+WeaponDescription=The Julang-1 (Chinese: 巨浪-1; pinyin: Jù Làng Yī; lit. 'Huge Wave-1', also known as the JL-1; NATO reporting name CSS-N-3) was China's first generation nuclear submarine-launched ballistic missile (SLBM). According to a US Department of Defense report in 2011 missile carried by Xia-class SSBN submarines.

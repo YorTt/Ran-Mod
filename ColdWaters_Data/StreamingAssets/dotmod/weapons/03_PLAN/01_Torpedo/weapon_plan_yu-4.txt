@@ -6,7 +6,7 @@ SensorRange=656
 SensorAngles=40,25
 *
 MaxLaunchDepth=354
-MaxDepth=1312
+MaxDepth=20
 *
 WeaponRanges=13123
 WeaponSpeed=43

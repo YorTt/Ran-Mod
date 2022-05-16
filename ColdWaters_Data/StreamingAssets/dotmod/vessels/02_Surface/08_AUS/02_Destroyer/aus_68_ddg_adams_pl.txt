@@ -14,8 +14,8 @@ HullNumbers=DDG-38,DDG-39,DDG-41
 SurfaceSpeed=35
 SubmergedSpeed=35
 TelegraphSpeeds=-5,0,5,10,18,25,35
-AccelerationRate=0.40
-DecelerationRate=0.28
+AccelerationRate=0.32
+DecelerationRate=0.20
 RudderTurnRate=0.7
 TurnRate=0.9
 PivotPointTurning=0.15
@@ -65,15 +65,15 @@ VLSMaxSpeedToFire=40
 [Defenses]
 
 AntiAirMissileType=usn_rim-24
-AntiAirMissilesNumbers=10
-AntiAirMissilesPerTarget=1
-AntiAirMissileReloadTime=8
+AntiAirMissilesNumbers=0
+AntiAirMissilesPerTarget=2
+AntiAirMissileReloadTime=22
 AntiAirMissileLaunchDepth=300
 AntiAirMissileLaunchPoints=0,0.11,-0.612
 AntiAirMissileLaunchPointsRotation=-30,180,0
 
 AutoMissileType=usn_rim-24
-AutoMissilesNumbers=30
+AutoMissilesNumbers=40
 AutoMissilesPerTarget=1
 AutoMissileReloadTime=8
 AutoMissileLaunchDepth=15
@@ -270,11 +270,11 @@ Material=weapons/assets/wp_ss-n-14_mat
 MaterialTextures=weapons/assets/wp_ss-n-14_tx
 MeshPosition=0.065,0.09,0.22
 MeshRotation=-55,70,0
-Mesh=SS-N-14
+//Mesh=SS-N-14
 
 MeshPosition=-0.065,0.09,0.22
 MeshRotation=-55,-70,0
-Mesh=SS-N-14
+//Mesh=SS-N-14
 
 
 ModelFile=ships/usn_cg_belknap/usn_cg_belknap

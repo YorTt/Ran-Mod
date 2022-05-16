@@ -7,7 +7,7 @@ Displacement=3230
 HullHeight=0.1
 Crew=284
 Range=3500
-HullNumbers=plan_105,plan_106,plan_107,plan_108,plan_109,plan_110,plan_131,plan_132,plan_133,plan_134,plan_160,plan_161,plan_162,plan_163,plan_164,plan_165,plan_166
+HullNumbers=plan_106,plan_107,plan_108,plan_109,plan_110,plan_131,plan_132,plan_133,plan_134,plan_160,plan_161,plan_162,plan_163,plan_164,plan_165,plan_166
 
 [Movement]
 SurfaceSpeed=38
@@ -44,7 +44,7 @@ NavalGunRestAngle=0,180
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
-MissileType=plan_hy-2
+MissileType=plan_hy-1
 MissilesPerLauncher=4,4
 
 RBULaunchers=wp_rbu2500_mortar,wp_rbu2500_mortar

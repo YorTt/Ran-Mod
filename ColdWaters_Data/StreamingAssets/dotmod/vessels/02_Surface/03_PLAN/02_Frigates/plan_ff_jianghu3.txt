@@ -128,22 +128,33 @@ MeshPosition=0,0.318,0.0795
 MeshRADAR=plan_ff_jianghu3_type_360,HIDE
 
 //Naval Guns
+ModelFile=ships/plan_ddg_luhu/plan_ddg_luhu
+Material=ships/plan_ddg_luhu/plan_ddg_luhu_mat
 MeshRotation=0,0,0
-Material=ships/plan_ff_jianghu3/plan_ff_jianghu3_mat
 MeshPosition=0,0.065,0.4603
-MeshNavalGun=plan_ff_jianghu3_100mm_turret
+MeshNavalGun=plan_ddg_luhu_100mm_turret
 MeshPosition=0,0.0246,0.001
-MeshNavalGunBarrel=plan_ff_jianghu3_100mm_gun
+MeshNavalGunBarrel=plan_ddg_luhu_100mm_gun
 NavalGunSpawnPosition=0,0,0.12
 
 MeshRotation=0,180,0
 MeshPosition=0,0.053,-0.4979
-MeshNavalGun=plan_ff_jianghu3_100mm_turret
+MeshNavalGun=plan_ddg_luhu_100mm_turret
 MeshRotation=0,0,0
 MeshPosition=0,0.0246,0.001
-MeshNavalGunBarrel=plan_ff_jianghu3_100mm_gun
+MeshNavalGunBarrel=plan_ddg_luhu_100mm_gun
 NavalGunSpawnPosition=0,0,0.12
 
+AssetBundle=bundles/parts/usn_parts.unity3d
+ModelFile=assets/models/usn_parts_mk45.fbx
+Material=assets/materials/usn_parts_mk45_mod0.mat
+MeshRotation=0,0,0
+MeshPosition=0,0.065,0.4603
+Mesh=turretring
+MeshPosition=0,0.053,-0.4979
+Mesh=turretring
+
+ModelFile=ships/plan_ff_jianghu3/plan_ff_jianghu3
 //Missile Mounts
 MeshRotation=-20,0,0
 MeshPosition=0.0,0.076,0.121
@@ -170,27 +181,22 @@ MeshRotation=0,0,0
 MeshPosition=-0.04,0.0846,0.3142
 Material=ships/plan_ff_jianghu3/plan_ff_jianghu3_mat
 MeshCIWSGun=plan_ff_jianghu3_37mm
-
 MeshPosition=0,0,0
 Material=ships/materials/crew_soviet
 ChildMesh=plan_ff_jianghu3_37mm_crew,HIDE
-
 MeshPosition=0,0.0143,0.0038
 Material=ships/materials/modular_parts
 ChildMesh=plan_ff_jianghu3_37mm_gun
-
 
 
 MeshRotation=0,180,0
 MeshPosition=-0.04,0.0846,-0.3614
 Material=ships/plan_ff_jianghu3/plan_ff_jianghu3_mat
 MeshCIWSGun=plan_ff_jianghu3_37mm
-
 MeshRotation=0,0,0
 MeshPosition=0,0,0
 Material=ships/materials/crew_soviet
 ChildMesh=plan_ff_jianghu3_37mm_crew,HIDE
-
 MeshPosition=0,0.0143,0.0038
 Material=ships/materials/modular_parts
 ChildMesh=plan_ff_jianghu3_37mm_gun
@@ -200,27 +206,22 @@ MeshRotation=0,0,0
 MeshPosition=0.04,0.0846,0.3142
 Material=ships/plan_ff_jianghu3/plan_ff_jianghu3_mat
 MeshCIWSGun=plan_ff_jianghu3_37mm
-
 MeshPosition=0,0,0
 Material=ships/materials/crew_soviet
 ChildMesh=plan_ff_jianghu3_37mm_crew,HIDE
-
 MeshPosition=0,0.0143,0.0038
 Material=ships/materials/modular_parts
 ChildMesh=plan_ff_jianghu3_37mm_gun
-
 
 
 MeshRotation=0,180,0
 MeshPosition=0.04,0.0846,-0.3614
 Material=ships/plan_ff_jianghu3/plan_ff_jianghu3_mat
 MeshCIWSGun=plan_ff_jianghu3_37mm
-
 MeshRotation=0,0,0
 MeshPosition=0,0,0
 Material=ships/materials/crew_soviet
 ChildMesh=plan_ff_jianghu3_37mm_crew,HIDE
-
 MeshPosition=0,0.0143,0.0038
 Material=ships/materials/modular_parts
 ChildMesh=plan_ff_jianghu3_37mm_gun

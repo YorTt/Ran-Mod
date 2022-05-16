@@ -37,7 +37,7 @@ RADARSignature=MEDIUM
 
 
 [Weapon Systems]
-NavalGuns=plan_type_79a_shell,plan_type_79a_shell
+NavalGuns=plan_type_79_shell,plan_type_79_shell
 NavalGunFiringArcBearingMin=-120,60
 NavalGunFiringArcBearingMax=120,-60
 NavalGunRestAngle=0,180
@@ -49,7 +49,7 @@ RBUSalvos=8,8
 RBUFiringArcBearingMin=-130,0
 RBUFiringArcBearingMax=0,130
 
-MissileType=plan_c-801
+MissileType=plan_hy-1
 MissilesPerLauncher=2,2
 
 Anti-MissileGunHitProbability=0.001

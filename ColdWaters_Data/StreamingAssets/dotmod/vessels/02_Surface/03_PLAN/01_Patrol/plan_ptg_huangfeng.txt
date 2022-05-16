@@ -27,17 +27,17 @@ CavitationParameters=20,-100
 PropRotationSpeed=-250,250,250
 TestDepth=0
 
-MissileType=plan_c-801
+MissileType=plan_hy-1
 MissilesPerLauncher=2,2
 
-Anti-MissileGunHitProbability=0.015
+Anti-MissileGunHitProbability=0.01
 Anti-MissileGunRange=4000
-Anti-MissileGunFiringArcStart=-120,30
-Anti-MissileGunFiringArcFinish=120,150
+Anti-MissileGunFiringArcStart=-120,60
+Anti-MissileGunFiringArcFinish=120,-60
 Anti-MissileGunRestAngle=0,180
 Anti-MissileGunUsesRADAR=0,0
 Anti-MissileRADARRestAngle=0
-Anti-MissileGunParticle=ships/particles/plan_25mm_burst
+//Anti-MissileGunParticle=ships/particles/plan_25mm_burst
 
 [Acoustics & Sensors]
 SelfNoise=175
@@ -106,23 +106,36 @@ MeshRotation=-2,0,0
 MeshPosition=0,0.1426,0.031
 MeshRADAR=plan_ptg_huangfeng_topbow,HIDE
 
-ModelFile=ships/wp_rkr_kirov/wp_rkr_kirov
+
 //Missile Defense CIWS Guns and RADARs
 //front
+ModelFile=ships/wp_bpk_kanin/wp_bpk_kanin
 MeshRotation=-2,0,0
-MeshPosition=0,0.0542,0.152
+MeshPosition=0,0.058,0.152
 Material=ships/materials/modular_parts
-MeshCIWSGun=wp_rkr_kirov_AK630
+MeshCIWSGun=wp_bpk_kanin_AK230
 
 //rear
 MeshRotation=2,180,0
-MeshPosition=0,0.0296,-0.234
-Material=ships/materials/modular_parts
-MeshCIWSGun=wp_rkr_kirov_AK630
+MeshPosition=0,0.032,-0.234
+MeshCIWSGun=wp_bpk_kanin_AK230
 
-MeshRotation=0,0,0
-MeshPosition=0,0.15,0.0
-MeshCIWSRADAR=FALSE
+ModelFile=ships/wp_mpk_grisha3/wp_mpk_grisha3
+MeshRotation=0,180,0
+MeshPosition=0,0.075,0
+MeshCIWSRADAR=wp_mpk_grisha3_basstilt
+
+AssetBundle=bundles/parts/usn_parts.unity3d
+ModelFile=assets/models/usn_parts_mk26.fbx
+Material=assets/materials/usn_parts_mk26.mat
+MeshRotation=-182,0,0
+MeshPosition=0,0.058,0.152
+Mesh=Fore_Mk26_Pedestal
+
+MeshRotation=182,0,0
+MeshPosition=0,0.032,-0.234
+Mesh=Fore_Mk26_Pedestal
+
 
 ModelFile=ships/plan_ptg_huangfeng/plan_ptg_huangfeng
 //Flags

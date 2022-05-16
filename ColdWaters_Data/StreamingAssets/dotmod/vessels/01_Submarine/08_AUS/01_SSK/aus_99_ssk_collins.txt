@@ -91,20 +91,15 @@ FLOODING5=-119,62,-77,-34
 DamageControlPartyY=-28
 
 [Model]
-ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
-Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
-MaterialTextures=ships/usn_ssn_skipjack/usn_ssn_skipjack_tx,ships/usn_ssn_skipjack/usn_ssn_skipjack_spec,ships/usn_ssn_skipjack/usn_ssn_skipjack_nm
-MeshPosition=0,-0.0040,-0.515
-MeshProp=usn_ssn_skipjack_prop
-
+ModelFile=ships/wp_ss_kilo/wp_ss_kilo
 //Hull
 MeshPosition=0,0,0
 MeshRotation=0,0,0
-ModelFile=ships/wp_ss_kilo/wp_ss_kilo
 MeshHullCollider=wp_ss_kilo_coll_hull
 MeshSuperstructureCollider=wp_ss_kilo_coll_ss
 
-Material=ships/wp_ss_kilo/wp_ss_kilo_mat
+Material=ships/wp_ss_kilo/plan_ss_kilo_mat
+MaterialTextures=ships/wp_ss_kilo/plan_ss_kilo_tx,ships/wp_ss_kilo/wp_ss_kilo_spec,ships/wp_ss_kilo/wp_ss_kilo_nm
 MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ss_kilo
 MeshPosition=0,0.01,0.20
@@ -116,10 +111,18 @@ ModelFile=ships/wp_ss_kilo/wp_ss_kilo
 MeshPosition=0,0,0
 MeshSternPlanes=wp_ss_kilo_bowplanes
 
-
-
 //Bow
 [Model]
+MeshRotation=0,0,0
+ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
+Material=ships/wp_ssn_sierra/wp_ssn_sierra_mat
+MeshRotation=0,0,180
+MaterialTextures=vessels/textures/darkgrey.png
+
+MeshPosition=0,0.004,-0.057
+Mesh=wp_ssn_alfa_damage_11
+MeshPosition=0,0.004,-0.057
+Mesh=wp_ssn_alfa_damage_12
 
 //Planes
 MaterialTextures=vessels/textures/darkgrey.png
@@ -136,9 +139,9 @@ Mesh=usn_ssn_skipjack_sternplanes
 //Sonar Dome
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 MeshRotation=0,0,0
-MeshPosition=-0.0,0.007,-0.0288
+MeshPosition=-0.0,0.012,-0.0288
 Mesh=usn_ssn_permit_wlr9
-MeshPosition=-0.0,0.015,-0.0288
+MeshPosition=-0.0,0.020,-0.0288
 Mesh=usn_ssn_permit_wlr9
 
 //Towed array
@@ -178,6 +181,43 @@ ModelFile=ships/wp_ssn_november/wp_ssn_november
 MeshPosition=0,0.030,0.06
 MastHeight=0.1
 MeshMast=wp_ssn_november_radar
+
+//sides
+ModelFile=ships/wp_skr_krivak1/wp_skr_krivak1
+Material=ships/wp_ssn_sierra/wp_ssn_sierra_mat
+MaterialTextures=vessels/textures/darkgrey.png
+MeshRotation=0,0,0
+MeshPosition=0.015,-0.035,0.35
+Mesh=wp_skr_krivak1_asw_launcher
+MeshPosition=-0.015,-0.035,0.35
+Mesh=wp_skr_krivak1_asw_launcher
+MeshPosition=0.015,-0.035,0.25
+Mesh=wp_skr_krivak1_asw_launcher
+MeshPosition=-0.015,-0.035,0.25
+Mesh=wp_skr_krivak1_asw_launcher
+MeshPosition=0.015,-0.035,0.15
+Mesh=wp_skr_krivak1_asw_launcher
+MeshPosition=-0.015,-0.035,0.15
+Mesh=wp_skr_krivak1_asw_launcher
+MeshPosition=0.015,-0.035,0.05
+Mesh=wp_skr_krivak1_asw_launcher
+MeshPosition=-0.015,-0.035,0.05
+Mesh=wp_skr_krivak1_asw_launcher
+
+//top
+MeshPosition=0.00,0.036,0.35
+//Mesh=wp_skr_krivak1_asw_launcher
+MeshPosition=0.00,0.036,0.25
+Mesh=wp_skr_krivak1_asw_launcher
+MeshPosition=0.00,0.036,0.15
+Mesh=wp_skr_krivak1_asw_launcher
+MeshRotation=-1,0,0
+MeshPosition=0.00,0.035,0.05
+Mesh=wp_skr_krivak1_asw_launcher
+MeshRotation=-0.5,0,0
+MeshPosition=0.00,0.034,-0.0
+Mesh=wp_skr_krivak1_asw_launcher
+
 
 [Weapon Systems]
 //Torpedo Mounts
@@ -223,6 +263,13 @@ MeshRotation=0,0,0
 MeshPosition=0.015,-0.005,-0.45
 MeshNoisemakerMount=FALSE
 
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
+Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
+MaterialTextures=ships/usn_ssn_skipjack/usn_ssn_skipjack_tx,ships/usn_ssn_skipjack/usn_ssn_skipjack_spec,ships/usn_ssn_skipjack/usn_ssn_skipjack_nm
+MeshPosition=0,-0.0040,-0.515
+MeshProp=usn_ssn_skipjack_prop
+
+ModelFile=ships/wp_ss_kilo/wp_ss_kilo
 //Wake
 MeshPosition=0,0,0
 BowWaveParticle=ships/particles/bowwave_sub

@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Houjian
+Description=Houjian-class Type 037II guided missile boat
+History=The Type 037II missile boat (NATO: Houjian class) is a missile equipped corvette built by Huangpu Shipyard of Guangzhou for the People's Liberation Army Navy. A total of six vessels were delivered to the PLA Navy and form the main naval defence force currently stationed in Hong Kong.
