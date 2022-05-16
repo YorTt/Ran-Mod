@@ -2,6 +2,7 @@
 plan_ss_whiskey=21
 plan_ss_romeo=6
 dprk_ss_romeo=20
+dprk_ss_whiskey=4
 plan_ss_ming=25
 plan_ss_kilo=12
 plan_ssk_song=13
@@ -12,6 +13,8 @@ plan_ssbn_xia=2
 plan_mb_haiqing=23
 plan_mb_houjian=6
 plan_ptg_huangfeng=24
+dprk_ptg_soju=20
+dprk_ff_najin=4
 plan_ff_chengdu=6
 plan_ff_jiangnan=6
 plan_ff_jiangdong=2
@@ -44,7 +47,7 @@ wp_best_boat=plan_ssk_song,plan_ss_kilo
 wp_ssgn=plan_ssn_han
 wp_ssb=plan_ssb_golf
 wp_ssbn=plan_ssbn_xia,plan_ssb_golf
-dprk_subs=dprk_ss_romeo,dprk_ff_najin
+dprk_subs=dprk_ss_romeo,dprk_ss_whiskey,dprk_ff_najin,dprk_ptg_soju
 
 wp_oldest_escorts=plan_ptg_huangfeng,plan_mb_haiqing,plan_ff_chengdu,plan_ff_jiangnan
 wp_small_escorts=plan_ptg_huangfeng,plan_mb_houjian,plan_mb_haiqing
