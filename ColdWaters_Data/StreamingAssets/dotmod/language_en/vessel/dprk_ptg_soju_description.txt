@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Soju
+Description=Soju-class Missile Boat
+History=A total of 15 to 17 units of this class were completed during 1981-1993. Vessels in this PTG class are North Korean-built versions of the Russian OSA-I class. They have the same propulsion system, missile armament, 30-mm twin gun mounts and the electronics as the Russian OSA-Is.

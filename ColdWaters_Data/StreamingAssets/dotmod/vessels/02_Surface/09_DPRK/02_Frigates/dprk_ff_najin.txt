@@ -39,7 +39,7 @@ RBUSalvos=8,8
 RBUFiringArcBearingMin=-130,0
 RBUFiringArcBearingMax=0,130
 
-MissileType=wp_p-6
+MissileType=dprk_styx
 MissilesPerLauncher=1,1
 
 [Defenses]

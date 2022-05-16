@@ -206,11 +206,11 @@ Hours=Hours
 Posthumously=posthumously
 NavyPrefixUSN=USS
 NavyPrefixUK=HMS
-NavyPrefixPLAN=
+NavyPrefixPLAN=PLAN
 NavyPrefixWP=
 NavyPrefixKNM=HNoMS
 NavyPrefixAUS=HMAS
-NavyPrefixDPRK=
+NavyPrefixDPRK=KPN
 SUBMARINE=submarine
 WARSHIP=warship
 
