@@ -1,5 +1,0 @@
-[Weapon Reference]
-WeaponName="S-70B-2 ASW"
-WeaponDescriptiveName=S-70B-2 ASW
-WeaponDescription=The S-70B-2 Seahawk is a derivative of the SH-60F, but was designed by Sikorsky to meet RAN specifications for anti-submarine warfare (ASW) and anti-surface surveilance and targeting (ASST) operations.
-The Seahawk was an integral part of the ship's weapons and sensor systems. With its unique sensor suite and integrated weapons systems the helicopter extended the combat radius of the ship by finding, localising and attacking where appropriate, surface or submarine targets either independently or in conjunction with other forces.

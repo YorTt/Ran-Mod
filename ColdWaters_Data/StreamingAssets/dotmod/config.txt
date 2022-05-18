@@ -12,7 +12,7 @@ ModVersion=RAN Mod for (Dot Mod) v 0.3b-4
 
 //Nations
 //The list of nations used by the game, as more are added this has been moved to the config file to prevent code changes. Format: comma separated strings
-Nations=all,usn,wp,plan,uk,knm,roc,aus,dprk
+Nations=all,usn,wp,plan,uk,knm,roc,aus
 
 //Custom font
 CustomFontBundle=bundles\fonts\custom

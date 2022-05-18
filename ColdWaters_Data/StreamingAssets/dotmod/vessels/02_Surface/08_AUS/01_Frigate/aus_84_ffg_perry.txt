@@ -51,7 +51,7 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=1600
 
-TorpedoTypes=usn_mk46_mod_5,usn_moss_surf,aus_s-70b_asw
+TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=24
 TorpedoTubes=6
 TubeConfig=3,3
