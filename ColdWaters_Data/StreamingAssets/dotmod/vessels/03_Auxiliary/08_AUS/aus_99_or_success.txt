@@ -43,8 +43,8 @@ RADARSignature=LARGE
 
 [Weapon Systems]
 
-TorpedoTypes=usn_moss_surf,aus_s-70b_asw
-TorpedoNumbers=2,2
+TorpedoTypes=usn_moss_surf
+TorpedoNumbers=2
 TorpedoTubes=2
 TubeConfig=1,1
 TorpedoTubeSize=324,100
