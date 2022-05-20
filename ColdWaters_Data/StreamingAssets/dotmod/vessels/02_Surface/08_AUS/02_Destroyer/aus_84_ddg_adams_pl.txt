@@ -89,8 +89,9 @@ Anti-MissileGunFiringArcFinish=0
 Anti-MissileGunRestAngle=0
 Anti-MissileGunUsesRADAR=0
 Anti-MissileRADARRestAngle=0
-PlayerWarningRange=2800
-JammingRange=3000
+PlayerWarningRange=2500
+JammingRange=300
+
 ChaffType=wp_chaff
 ChaffProbability=0.90
 NumberChaffLaunched=2
@@ -270,16 +271,27 @@ Mesh=usn_mk13_arm
 //IKARA Launcher
 MeshPosition=0.065,0.09,0.22
 MeshRotation=-55,70,0
+MaterialTextures=vessels/textures/lgray.png
 Mesh=usn_mk13_arm
-
 MeshPosition=-0.065,0.09,0.22
 MeshRotation=-55,-70,0
+MaterialTextures=vessels/textures/lgray.png
 Mesh=usn_mk13_arm
+
+ModelFile=assets/models/usn_parts_mk26.fbx
+Material=assets/materials/usn_parts_mk26.mat
+MaterialTextures=vessels/textures/lgray.png
+MeshRotation=180,0,0
+MeshPosition=0.06,0.06,0.22
+Mesh=Fore_Mk26_Pedestal
+MeshRotation=180,0,0
+MeshPosition=-0.06,0.06,0.22
+Mesh=Fore_Mk26_Pedestal
 
 //IKARA Missile
 ModelFile=weapons/assets/wp_ss-n-14
 Material=weapons/assets/wp_ss-n-14_mat
-MaterialTextures=weapons/assets/wp_ss-n-14_tx
+MaterialTextures=vessels/textures/aus_ikara_F2-0.png
 MeshPosition=0.065,0.09,0.22
 MeshRotation=-55,70,0
 //Mesh=SS-N-14
@@ -331,10 +343,10 @@ TorpedoEffectPosition=0.075,0.0634,0.2934
 
 //VLS
 MeshRotation=-55,70,0
-MeshPosition=0.065,0.09,0.22
-TorpedoSpawnPosition=0.065,0.09,0.22
-TorpedoEffectPosition=0.065,0.09,0.22
-VLSLaunchPoints=0.065,0.09,0.22|-0.065,0.09,0.22
+MeshPosition=0.065,0.06,0.22
+TorpedoSpawnPosition=0.065,0.06,0.22
+TorpedoEffectPosition=0.065,0.06,0.22
+VLSLaunchPoints=0.065,0.06,0.22|-0.065,0.06,0.22
 VLSLaunchPointsRotation=-55,70,0|-55,-70,0
 
 //Noisemaker Mount

@@ -20,13 +20,13 @@ AttackSettings=FALSE
 DepthSettings=FALSE
 *
 WeaponNoiseValues=190,190
-WeaponSprite=hud/sprites/wp_urpk-3_sprite.png
+WeaponSprite=hud/sprites/aus_ikara_sprite.png
 MinCameraDistance=0.3
 ResupplyTime=120
 [Model]
 ModelFile=weapons/assets/wp_ss-n-14
 Material=weapons/assets/wp_ss-n-14_mat
-MaterialTextures=weapons/assets/wp_ss-n-14_tx
+MaterialTextures=vessels/textures/aus_ikara_F2-0.png
 MeshPosition=0,0,0
 MeshWeapon=SS-N-14
 MeshMissileBooster=ss-n-14_booster
