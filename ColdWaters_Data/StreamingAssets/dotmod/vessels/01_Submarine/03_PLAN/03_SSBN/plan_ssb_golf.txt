@@ -8,7 +8,7 @@ HullHeight=0.08
 Displacement=3500
 Crew=75
 Range=20000
-HullNumbers=FALSE
+HullNumbers=r200.png
 
 [Movement]
 SurfaceSpeed=17
@@ -105,6 +105,11 @@ FLOODING5=-125,118,-72,-39
 DamageControlPartyY=-28
 
 [Model]
+MeshPosition=0,0,0
+ModelFile=ships/plan_ss_romeo/plan_ss_romeo
+Material=ships/materials/hullnumbers/hullnumber
+MeshHullNumber=plan_ss_romeo_hullnumber
+
 ModelFile=ships/wp_ssb_golf/wp_ssb_golf
 
 //Hull and Deck

@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Romeo
+Description=Romeo-class Type 033G1 Diesel-Electric Guided Missile Submarine
+
+History=Type 033G1: A single Type 033G was modified to carry 6 YJ-1 (CSS-N-4) anti-ship missiles, this variant is called Type 033G1, with the rumored NATO reporting name of Wuhan A. The missile had to be fired while the boat was surfaced, with a total exposure time on the surface of less than 7 minutes. The most significant improvement, however, is the reduction of noise level by 12 dB.
+
+[Player Ship Instances]
+PlayerClassNames=
+PlayerClassHullNumbers=10

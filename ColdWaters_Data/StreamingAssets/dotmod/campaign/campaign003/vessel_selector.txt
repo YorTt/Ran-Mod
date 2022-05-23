@@ -1,6 +1,7 @@
 [Inventory]
 plan_ss_whiskey=21
 plan_ss_romeo=6
+plan_ssg_romeo=1
 plan_ss_ming=25
 plan_ss_kilo=12
 plan_ssk_song=13
@@ -40,7 +41,7 @@ wp_ssk=plan_ssk_song,plan_ss_romeo,plan_ss_ming,plan_ss_kilo
 wp_old_ssks=plan_ss_whiskey,plan_ss_romeo
 wp_ssn=plan_ssn_han
 wp_best_boat=plan_ssk_song,plan_ss_kilo
-wp_ssgn=plan_ssn_han
+wp_ssgn=plan_ssn_han,plan_ssg_romeo
 wp_ssb=plan_ssb_golf
 wp_ssbn=plan_ssbn_xia,plan_ssb_golf
 

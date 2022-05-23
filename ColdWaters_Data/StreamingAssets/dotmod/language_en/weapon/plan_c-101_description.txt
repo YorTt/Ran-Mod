@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=YJ-1
+WeaponDescriptiveName=YJ-1 Anti-Ship Missile
+WeaponDescription=Special: The C-101 is a Chinese supersonic anti-ship cruise missile.[6] It is manufactured by the China Aerospace Science and Industry Corporation Third Academy. The People's Liberation Army Navy designation is YJ-1. The YJ-1 is launched with solid-fuel rocket boosters to a speed of Mach 1.8. Two ramjets sustain a cruise and impact speed of Mach 2. At three kilometers from the target, the missile descends from a cruise altitude of 50 meters to 5 meters

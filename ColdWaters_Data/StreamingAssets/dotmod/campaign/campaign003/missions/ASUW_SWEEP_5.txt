@@ -22,6 +22,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=2-4,2-4,1-2,4-6,1-3
 CombatBehaviour=OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,TRUE,TRUE,FALSE
-EnemyShipClasses=wp_small_escorts|wp_medium_escorts||wp_large_escorts|wp_large_escorts,plan_ff_jiangdong|plan_ffg_jiangwei|wp_medium_escorts,plan_ddg_sovremenny|wp_oldest_escorts,wp_landing|wp_cargo,wp_ssn|wp_oldest_subs
+EnemyShipClasses=wp_small_escorts|wp_medium_escorts||wp_large_escorts|wp_large_escorts,plan_ff_jiangdong|plan_ffg_jiangwei|wp_medium_escorts,plan_ddg_sovremenny|wp_oldest_escorts,wp_landing|wp_cargo,wp_ssgn|wp_oldest_subs
 EventWin=ASUW_STRIKE_win
 EventFail=ASUW_STRIKE_fail
